@@ -19,6 +19,9 @@
         - [Nuova anagrafica](#nuova-anagrafica)
     - [Supporto](#supporto)
 1. [Attività](#attività)
+    - [Gestione appuntamenti da email](#gestione-appuntamenti-da-email)
+    - [Aggiornamento anagrafica paziente](#aggiornamento-anagrafica-paziente)
+    - [Modifica di un appuntamento esistente](#modifica-di-un-appuntamento-esistente)
 1. [Fonti](#fonti)
 
 <div style="page-break-after: always;"></div>
@@ -201,12 +204,60 @@ Quando compiliamo un'anagrafica, non è necessario compilare **tutti i campi**, 
 
 ## Supporto
 
-Possiamo leggere la **wiki** di openEMR per studiare tutte le sue funzionalità (vedi il link nelle Fonti), oppure chiedere supporto sul **forum di openEMR** ([https://community.open-emr.org/](https://community.open-emr.org/)).
+Possiamo leggere la **wiki** di openEMR per studiare tutte le sue funzionalità (vedi il link nelle [Fonti](#fonti)), oppure chiedere supporto sul **forum di openEMR** ([https://community.open-emr.org/](https://community.open-emr.org/)).
 
 <div style="page-break-after: always;"></div>
 
 # Attività
 
+## Gestione appuntamenti da email
+
+1. Hai ricevuto le seguenti email da tre pazienti a tua scelta.
+
+    Mail 1:
+
+        Buongiorno, avrei bisogno di un appuntamento il prima possibile con il dott. Enoki, preferibilmente al mattino.
+
+        Attendo un vostro gentile riscontro.
+
+    Mail 2:
+
+        Buongiorno, vi scrivo perché avrei bisogno di programmare un appuntamento al mese con la dottoressa Rossi.
+        
+        Non ho preferenze di orario, l'importante è che l'appuntamento cada durante la prima settimana di ogni mese.
+
+        Grazie e buona giornata.
+
+    Mail 3:
+
+        Buongiorno, vorrei prenotare un appuntamento con il dottor Mellino giovedì o venerdì della settimana prossima. È possibile? 
+
+        Grazie e a presto.
+
+2. Crea gli appuntamenti per i dottori indicati nelle mail, cercando di rispettare le richieste dei pazienti.
+
+3. Crea anche un file Word con le risposte da inviare ai pazienti, riportando i dettagli degli appuntamenti che hai preso.
+
+## Aggiornamento anagrafica paziente
+
+1. Apri il profilo di un paziente già registrato.  
+
+2. Modifica i dati seguenti:  
+  
+    - Numero di telefono  
+    - Indirizzo di residenza  
+    - Indirizzo email
+
+3. Salva le modifiche e verifica che i dati siano aggiornati correttamente.  
+
+4. Ripeti l'operazione su due altri pazienti a tua scelta.
+
+
+## Modifica di un appuntamento esistente
+
+1. Apri la scheda di un appuntamento già inserito.  
+2. Sposta la data alla settimana successiva, mantenendo lo stesso orario (se possibile).  
+3. Invia al paziente una mail di variazione (puoi creare un file di Word oppure un file di testo semplice, con il blocco note).  
 
 
 <div style="page-break-after: always;"></div>
