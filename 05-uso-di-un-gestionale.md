@@ -12,16 +12,13 @@
     - [Account](#account)
 1. [openEMR](#openemr)
     - [Connessione](#connessione)
-    - [Agenda]()
-        - [Nuovo appuntamento]()
-        - [Modifica un appuntamento]()
-    - [Anagrafiche]()
-        - [Nuova anagrafica]()
-        - [Modifica anagrafica]()
-    - [Promemoria]()
-    - [Supporto]()
-        - []()
-        - []()
+    - [Agenda]( #agenda)
+        - [Nuovo appuntamento](#nuovo-appuntamento)
+        - [Modifica di un appuntamento](#modifica-di-un-appuntamento)
+    - [Anagrafiche](#anagrafiche)
+        - [Nuova anagrafica](#nuova-anagrafica)
+    - [Supporto](#supporto)
+1. [Attività](#attività)
 1. [Fonti](#fonti)
 
 <div style="page-break-after: always;"></div>
@@ -108,37 +105,108 @@ Non sono richieste password. Apriamo poi un **browser** e digitiamo l'indirizzo:
 
 Accediamo con i dati forniti dal docente.
 
-L'account che ci è stato fornito è un **account di front desk**.
+<p align="center" style="width=100%;">
+  <img width="400px" src="img/oe-login.png" border="1px">
+</p>
+
+L'account che ci è stato fornito è un **account di front desk**. 
+
+> Gli altri account possibili sono **medico**, **contabile** e **amministratore**.
+
+Ogni account ha permessi e può compiere diverse attività, e pertanto ognuno ha una barra del menu leggermente diversa.
+
+Al login, notiamo prima di tutto che l'interfaccia di openEMR è strutturata a **schede**, che possono essere gestite come in un browser web.
 
 ## Agenda
 
-L'agenda è l'elemento fondamentale di questo software gestionale, almeno dal punto di vista del front desk.
+L'agenda è la scheda fondamentale di questo software gestionale (insieme all'anagrafica paziente), almeno dal punto di vista del front desk.
 
-Sono indicati gli **orari di disponibilità dei medici** e gli appuntamenti già presi.
+In agenda sono indicati gli **orari di disponibilità dei medici** e gli appuntamenti già presi.
 
 L'agenda è divisa in diversi calendari, per poter gestire gli appuntamenti di più persone contemporaneamente.
 
-IMMAGINE
+<p align="center" style="width=100%;">
+  <img width="670px" src="img/oe-fullday.png" border="1px">
+</p>
+
+L'interfaccia è molto simile a quella di Google Calendar.
 
 ### Nuovo appuntamento
 
-PARLA BENE DI COME SI TROVA UNO SLOT DISPONIBILE
+Basta **selezionare il calendario corretto** e cliccare sul `+`. In alternativa possiamo fare clic direttamente su una zona vuota del calendario.
 
-### Modifica un appuntamento
+Le opzioni sono ancora una volta molto simili a quelle di Google Calendar.
+
+<p align="center" style="width=100%;">
+  <img width="380px" src="img/oe-new.png" border="1px">
+</p>
+
+Attenzione a impostare il tipo di evento a *Visita in studio*, a scegliere l'operatore (cioè il medico) e il paziente corretti.
+
+<p align="center" style="width=100%;">
+  <img width="350px" src="img/oe-searchpat.png" border="1px">
+</p>
+
+Dobbiamo impostare la durata dell'evento in minuti (default=15).
+
+Possiamo anche impostare eventi **ricorrenti**, come riunioni, ecc.
+
+Per essere certe di creare l'evento in un momento in cui il medico è disponibile, possiamo usare il bottone **Cerca disponibilità** (*Find available*). Ci verranno mostrate diverse opzioni di data e orario in cui il medico indicato non ha altri appuntamenti.
+
+<p align="center" style="width=100%;">
+  <img width="550px" src="img/oe-avail.png" border="1px">
+</p>
+
+### Modifica di un appuntamento
+
+Per modificare un appuntamento già creato, basta fare doppio clic sull'appuntamento stesso. Vedremo la stessa interfaccia che abbiamo visto durante la creazione di un evento.
+
+> Se stiamo modificando un evento ricorrente, ci verrà chiesto se vogliamo applicare le modifiche a tutti gli eventi, a quelli futuri o solo a quello corrente.
 
 ## Anagrafiche
 
+Come sappiamo, un'anagrafica è la raccolta dei dati personali di un paziente.
+
+Possiamo cercare nelle anagrafiche già esistenti mediante il **campo di ricerca in alto a destra** oppure selezionando **Finder** dal menu.
+
+<p align="center" style="width=100%;">
+  <img width="670px" src="img/oe-finder.png" border="1px">
+</p>
+
+Selezionando un paziente, potremo vedere i suoi dati anagrafici e gli appuntamenti futuri presso lo studio.
+
+<p align="center" style="width=100%;">
+  <img width="670px" src="img/oe-schedapat.png" border="1px">
+</p>
+
+Per modificare un'anagrafica (ad esempio per aggiornare un numero di telefono), è sufficiente cercare il paziente e aprire la sua scheda. 
+
+Facendo clic sull'icona della matita possiamo modificare i dettagli del paziente.
+
 ### Nuova anagrafica
 
-QUALI SONO I CAMPI FONDAMENTALI
+Per creare una nuova anagrafica, selezioniamo **Paziente** dal menu e poi **Nuovo/Cerca**. Potremmo anche usare questa interfaccia per cercare i pazienti, ma i metodi mostrati in precedenza sono senza dubbio più comodi.
 
-### Modifica anagrafica
+Quando compiliamo un'anagrafica, non è necessario compilare **tutti i campi**, ma solo quelli importanti rispetto al nostro modo di lavorare.
 
-## Promemoria
+> Possiamo spostarci al campo successivo **senza usare il mouse** usando il tasto `TAB` sulla tastiera.
 
+<p align="center" style="width=100%;">
+  <img width="450px" src="img/oe-anag-1.png" border="1px"><br>Dati anagrafici fondamentali
+</p>
 
+<p align="center" style="width=100%;">
+  <img width="450px" src="img/oe-anag-2.png" border="1px"><br>Dati di contatto fondamentali
+</p>
 
 ## Supporto
+
+Possiamo leggere la **wiki** di openEMR per studiare tutte le sue funzionalità (vedi il link nelle Fonti), oppure chiedere supporto sul **forum di openEMR** ([https://community.open-emr.org/](https://community.open-emr.org/)).
+
+<div style="page-break-after: always;"></div>
+
+# Attività
+
 
 
 <div style="page-break-after: always;"></div>
